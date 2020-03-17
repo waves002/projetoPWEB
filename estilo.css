@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#dec-button, #bin-button{
+    font-size: 20;
+}
+input[type="button"] {
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    margin: 2px;
+    cursor: pointer;
+    color: #707070;
+    border: none;
+}
+.textView{
+    width: 258px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 35px;
+    color: #707070;
+    border: none;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: none;
+}
+.bg{
+    background: linear-gradient(to bottom left, rgb(41, 204, 136), rgb(156, 25, 207));
+    height: 100%;
+}
